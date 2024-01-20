@@ -38,7 +38,7 @@ a{
 }
 .netflix{
 
-    background-image:url(./file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/netflix.png);
+    background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/netflix.png);
     border-radius: 45px;
     height: 150px;
     width: 150x;
@@ -48,7 +48,7 @@ P{
     color: antiquewhite;
 }
 .portfolio{
-    background-image:url(./file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/PORTFOLIO.jpeg) ;
+    background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/PORTFOLIO.jpeg) ;
     border-radius: 35px;
     height: 150px;
     width: 150x;
@@ -57,7 +57,7 @@ P{
 
 }
 .python{
-    background-image: url(./file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/Python-Symbol.png);
+    background-image: url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/Python-Symbol.png);
     border-radius: 45px;
     height: 150px;
     width: 150x;
@@ -67,7 +67,7 @@ P{
 
 }
 .current{
-    background-image: url(file:///C:/Users/Sunny%20Kumar/Downloads/hhhhh.png);
+    background-image: url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/WORK%20IN%20PROGRESS.png);
     border-radius: 45px;
     height: 150px;
     width: 150x;
