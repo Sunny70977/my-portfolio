@@ -28,7 +28,7 @@ body{
     top: 250px;
     right: 150px;
     background-size: cover;
-    background-image:url(./file:///c%3A/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/NEW%20SUNNY.jpeg) ;
+    background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/NEW%20SUNNY.jpeg) ;
 
     
     
@@ -76,7 +76,7 @@ p1{
 }
 .insta{
     border: 10px solid black;
-   background-image:url(file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/INSTA.jpeg);
+   background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/INSTA.jpeg);
     background-size: cover;
     border-radius: 25px;
     height: 80px;
@@ -98,7 +98,7 @@ p1{
     height: 80px;
     width: 80px;
     display: inline-block;
-    background-image:url(file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/linkedin.png);
+    background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/linkedin.png);
     position: absolute;
     top: 250px;
 
