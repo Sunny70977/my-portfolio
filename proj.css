@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+.nav_bar{
+    background-color: #f542d4;
+    height: 100px;
+    border-radius: 25PX;
+    padding-left: 200px;
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+   
+    
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    font-size: large;
+    font-style: italic;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.same{
+    border: 3px solid white ;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 350px;
+    background-color: rgb(0, 0, 0);
+}
+.netflix{
+
+    background-image:url(file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/netflix.png);
+    border-radius: 45px;
+    height: 150px;
+    width: 150x;
+    margin-top: 10px;
+}
+P{
+    color: antiquewhite;
+}
+.portfolio{
+    background-image:url(file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/PORTFOLIO.jpeg) ;
+    border-radius: 35px;
+    height: 150px;
+    width: 150x;
+    margin-top: 10px;
+    background: size 20px;;
+
+}
+.python{
+    background-image: url(file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/Python-Symbol.png);
+    border-radius: 45px;
+    height: 150px;
+    width: 150x;
+    margin-top: 10px;
+    background-size: contain;
+
+
+}
+.current{
+    background-image: url(file:///C:/Users/Sunny%20Kumar/Downloads/hhhhh.png);
+    border-radius: 45px;
+    height: 150px;
+    width: 150x;
+    margin-top: 10px;
+    background-size: cover;
+ 
+}
+.text{
+    margin-left: 10px;
+}
+
