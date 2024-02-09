@@ -80,3 +80,6 @@ button{
     background-color: black;
     cursor: pointer;
 }
+input{
+    padding-left: 20px;
+}
