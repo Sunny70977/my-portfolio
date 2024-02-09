@@ -79,6 +79,6 @@ P{
     margin-left: 10px;
 }
 .same:hover{
-    tranform: scale(1.1)
-    z-index:2;
+    transform: scale(1.1);
+    z-index: 2;
 }
