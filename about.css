@@ -57,3 +57,17 @@ ul {
 ul li {
     margin: 5px 0;
 }
+<<<<<<< HEAD
+=======
+.content{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+li{
+    color: aliceblue;
+}
+.abn{
+    font-size: x-large;
+    color:white;
+}
+>>>>>>> 107b8a03b69eca3a5ca2cee0ae30aa54b2efb316
