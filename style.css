@@ -1,6 +1,7 @@
 body {
-    background-color: black;
-    color: white;
+    background: url('file:///C:/Users/Sunny%20Kumar/Downloads/wallpaperflare.com_wallpaper%20(1).jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: #e0e0e0; 
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -8,49 +9,31 @@ body {
 }
 
 .nav_bar {
-    background-color: #f542d4;
+    background-color: rgba(98, 0, 234, 0.8); 
     height: 100px;
     border-radius: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    padding: 0 50px;
 }
 
-<<<<<<< HEAD
-a {
+.nav_bar a {
     margin-right: 20px;
-=======
-
-.image{
-   
-    border-radius: 200px;
-    height: 350px;
-    width: 350px;
-    position: absolute;
-    top: 250px;
-    right: 150px;
-    background-size: cover;
-    background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/NEW%20SUNNY.jpeg) ;
-
-    
-    
- 
-}
-    
-a{ color: black;
-    margin-right: 150px;
->>>>>>> 107b8a03b69eca3a5ca2cee0ae30aa54b2efb316
     text-decoration: none;
     font-size: large;
     font-style: italic;
-    color: black;
+    color: #ffffff; 
+    transition: color 0.3s;
 }
 
-a:hover {
-    color: beige;
+
+.nav_design{
+    
+}
+.nav_bar a:hover {
+    color: #bb86fc; 
 }
 
 .content {
@@ -59,17 +42,11 @@ a:hover {
     align-items: center;
     padding: 20px;
 }
-<<<<<<< HEAD
 
 .image {
     border-radius: 200px;
     height: 350px;
     width: 350px;
-=======
-.insta{
-    border: 10px solid black;
-   background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/INSTA.jpeg);
->>>>>>> 107b8a03b69eca3a5ca2cee0ae30aa54b2efb316
     background-size: cover;
     background-image: url('file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/my-portfolio/NEW%20SUNNY.jpeg');
     margin-bottom: 20px;
@@ -77,6 +54,7 @@ a:hover {
 
 p {
     font-size: xx-large;
+    color: #e0e0e0; 
 }
 
 p + p {
@@ -92,42 +70,17 @@ p + p {
 }
 
 .insta, .linkedin, .github {
-    border: 10px solid black;
+    border: 5px solid #121212; 
     border-radius: 25px;
     height: 80px;
     width: 80px;
     background-size: cover;
-<<<<<<< HEAD
-=======
-    border-radius: 25px;
-    height: 80px;
-    width: 80px;
-    display: inline-block;
-    background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/linkedin.png);
-    position: absolute;
-    top: 250px;
-
-    
-    
->>>>>>> 107b8a03b69eca3a5ca2cee0ae30aa54b2efb316
+    transition: transform 0.3s, border-color 0.3s;
 }
 
 .insta {
     background-image: url('file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/my-portfolio/INSTA.jpeg');
 }
-<<<<<<< HEAD
-=======
-.github{
-    border: 10px solid black;
-    background-size: cover;
-    border-radius: 25px;
-    height: 80px;
-    width: 80px;
-    display: inline-block;
-    background-image:url(https://raw.githubusercontent.com/Sunny70977/my-portfolio/main/GITHUB.jpeg);
-    position: absolute;
-    top: 250px;
->>>>>>> 107b8a03b69eca3a5ca2cee0ae30aa54b2efb316
 
 .linkedin {
     background-image: url('file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/my-portfolio/linkedin.png');
@@ -140,4 +93,67 @@ p + p {
 .insta:hover, .linkedin:hover, .github:hover {
     transform: scale(1.3);
     z-index: 2;
+    border-color: #bb86fc; 
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+
+.same {
+    border: 3px solid #e0e0e0;
+    height: 300px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.same:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.netflix, .portfolio, .python, .current,.Tic {
+    height: 100px;
+    width: 150px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.netflix {
+    background-image: url('file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/my-portfolio/netflix.png');
+}
+
+.portfolio {
+    background-image: url('file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/my-portfolio/PORTFOLIO.jpeg');
+}
+
+.python {
+    background-image: url('file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/my-portfolio/Python-Symbol.png');
+}
+
+.current {
+    background-image: url('file:///C:/Users/Sunny%20Kumar/Downloads/hhhhh.png');
+}
+.Tic{
+    background-image:url('file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/my-portfolio/tic%20tac%20toe.png');
+}
+
+.text {
+    margin-top: 10px;
+}
+
+p {
+    color: antiquewhite;
+}
+html{
+    scroll-behavior: smooth;
 }
