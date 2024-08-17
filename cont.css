@@ -1,5 +1,5 @@
 body {
-    background: url('file:///C:/Users/Sunny%20Kumar/Downloads/wallpaperflare.com_wallpaper%20(1).jpg') no-repeat center center fixed; 
+    background: url('Wallpaper.jpg') no-repeat center center fixed; 
     background-size: cover;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -83,7 +83,7 @@ button {
 
 .image {
     border-radius: 25px;
-    background-image: url('file:///C:/Users/Sunny%20Kumar/OneDrive/Desktop/GITSUNNY/my-portfolio/GET%20IN%20TOUCH.png');
+    background-image: url('GET IN TOUCH.png');
     height: 250px;
     width: 250px;
     background-size: cover;
